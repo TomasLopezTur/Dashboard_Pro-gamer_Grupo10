@@ -1,25 +1,20 @@
+import { Link } from "react-router-dom";
+import { SidebarLogo } from "./components/Logo";
+import Logo from "../../assets/logo-ecomerce.jpg";
+import { NavItem } from "./components/NavItem";
+
+const TITLE = "Dashboard Artística";
+
 export const Sidebar = () => {
   return (
     <>
       {/* <!-- Sidebar --> */}
       <ul
-        className="navbar-nav bg-gradient-secondary sidebar sidebar-dark accordion"
+        className="navbar-nav bg-gradient-dark sidebar sidebar-dark accordion"
         id="accordionSidebar"
       >
         {/* <!-- Sidebar - Brand --> */}
-        <a
-          className="sidebar-brand d-flex align-items-center justify-content-center"
-          href="/"
-        >
-          <div className="sidebar-brand-icon">
-            <img
-              className="w-100"
-              src="assets/images/logo-DH.png"
-              alt="Digital House"
-            />
-          </div>
-        </a>
-
+        <SidebarLogo brand="Artistica Dalí" logo={Logo} />        
         {/* <!-- Divider --> */}
         <hr className="sidebar-divider my-0" />
 
@@ -27,7 +22,7 @@ export const Sidebar = () => {
         <li className="nav-item active">
           <a className="nav-link" href="/">
             <i className="fas fa-fw fa-tachometer-alt"></i>
-            <span>Dashboard - Pro-Gamer</span>
+            <span>{TITLE}</span>
           </a>
         </li>
 
@@ -35,31 +30,11 @@ export const Sidebar = () => {
         <hr className="sidebar-divider" />
 
         {/* <!-- Heading --> */}
-        <div className="sidebar-heading">Actions</div>
+        <div className="sidebar-heading">Administrar</div>
 
-        {/* <!-- Nav Item - Pages --> */}
-        <li className="nav-item">
-          <a className="nav-link collapsed" href="/">
-            <i className="fas fa-fw fa-folder"></i>
-            <span>Pages</span>
-          </a>
-        </li>
-
-        {/* <!-- Nav Item - Charts --> */}
-        <li className="nav-item">
-          <a className="nav-link" href="/">
-            <i className="fas fa-fw fa-chart-area"></i>
-            <span>Charts</span>
-          </a>
-        </li>
-
-        {/* <!-- Nav Item - Tables --> */}
-        <li className="nav-item">
-          <a className="nav-link" href="/">
-            <i className="fas fa-fw fa-table"></i>
-            <span>Tables</span>
-          </a>
-        </li>
+        {/* <!-- Nav Items --> */}
+       
+        <NavItem href="/" icon="fa-box" name="ABM - Productos"/>
 
         {/* <!-- Divider --> */}
         <hr className="sidebar-divider d-none d-md-block" />
