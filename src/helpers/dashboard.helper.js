@@ -11,7 +11,7 @@ export const generateCards = (products, users) => {
       {
         id: 2,
         quantity: users.count,
-        color: "secondary",
+        color: "dark",
         title: "Total de usuarios",
         icon: "fa-users",
         href: "/users"
@@ -19,7 +19,7 @@ export const generateCards = (products, users) => {
       {
         id: 3,
         quantity: Object.keys(products.countByCategory).length,
-        color: "danger",
+        color: "success",
         title: "Total de categorias",
         icon: "fa-layer-group",
         href: "/#categories"

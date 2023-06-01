@@ -11,7 +11,7 @@ export const Layout = ({children}) => {
         <Header />
         <div id="content">{children}</div>
 
-        <Footer autor={"Artística Dalí"}/>
+        <Footer autor={"Grupo10"}/>
       </div>
     </div>
   );

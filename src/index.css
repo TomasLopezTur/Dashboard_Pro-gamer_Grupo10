@@ -74,7 +74,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #858796;
+  color: #F3EFE0;
   text-align: left;
   background-color: #fff;
 }
@@ -85,6 +85,7 @@ hr {
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+  background-color: #56e557 !important;
 }
 h1,
 h2,
@@ -157,12 +158,14 @@ sup {
   top: -0.5em;
 }
 a {
-  color: #4e73df;
+  color: #F3EFE0;
   text-decoration: none;
   background-color: transparent;
+  transition: all 1s ease;
 }
 a:hover {
-  color: #224abe;
+  background-color: var(--crema);
+  transform:  scale(1.1);
   text-decoration: underline;
 }
 a:not([href]):not([tabindex]) {
@@ -396,7 +399,7 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 3px solid rgba(2, 250, 2, 1);
 }
 .small,
 small {
@@ -3612,6 +3615,7 @@ input[type="submit"].btn-block {
 }
 .nav-tabs .nav-item {
   margin-bottom: -1px;
+
 }
 .nav-tabs .nav-link {
   border: 1px solid transparent;

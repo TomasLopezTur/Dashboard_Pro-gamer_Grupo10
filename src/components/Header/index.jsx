@@ -1,10 +1,10 @@
-import styles from "./index.modules.css"
+import styles from "./index.module.css"
 
 export const Header = ({userName = "Grupo-10"}) => {
   return (
     <>
       {/* <!-- Topbar --> */}
-      <nav className="navbar navbar-expand navbar-dark bg-dark topbar mb-4 static-top shadow">
+      <nav className={`navbar navbar-expand topbar mb-4 static-top shadow ${styles.fondo}`}>
         {/* <!-- Sidebar Toggle (Topbar) --> */}
 
         {/* <!-- Topbar Navbar --> */}
