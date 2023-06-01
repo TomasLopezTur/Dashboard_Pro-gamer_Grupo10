@@ -1,6 +1,52 @@
-# Getting Started with Create React App
+# ProGamer - Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [MVC](https://github.com/LuqueJuanManuel/Grupo_10_ProGamer)
+
+- [APIS](https://github.com/emanuel-gauna/grupo-10-Progamer_APIS-REACT)
+
+<img alt="pro-gamer-logo" src="./design/proGamer_logo.png">
+
+## ¿Quienes somos?
+
+Pro Gamer es un E-commerce pensado para ofrecer articulos y elementos de Tecnologia, como por ejemplo Computadoras, Netbook, teclados, mouse, etc.
+
+Lo que brindamos en nuestra pagina, es una buena experiencia de navegación para el Usuario, para que al momento de buscar lo que necesita no solo sea facil, sino que pueda despejar sus dudas sobre lo que busca y quedar satisfecho a la hora de comprar lo que necesita.
+
+El publico al que apunta nuestra pagina, es a todos! ya que unas de nuestras caracterizticas es ofrecer combos u ofertas de articulos variados para todo tipo de usuario, por ejemplo en la zona de elementos destacados ofrecemos por ejemplo: 
+- Combo de Pc Gaming,enfocado a aquellos que buscan sacarle el maximo potencial a sus videos Juegos favoritos.
+- Combo de Pc Profesional, destinada a aquellas personas que quieren aprovechar su PC para el uso laboral.
+- Combo Economico, para las personas que quieran comenzar con su primer PC o para uso de estudio o necesidades basicas.
+
+Entre otras cosas a destacar de nuestra pagina, una de ellas el "Dejanos tus dudas y preguntas" que cumple no solo la funcion de que el usuario califique su experiencia, si no tambien pueda despejar sus dudas o preguntas sobre algun articulo, como por ejemplo si el componente es compatible con su pc, cual pose un mejor "precio/calidad", etc.
+
+***
+
+## Grupo 10
+
+## Equipo de trabajo
+
+### Luque Juan M. 29 años.
+- Estudiante de programación Web Full Stack, Apasionado por la Tecnologia, tanto Hardware como Software.
+- Me coinsidero una persona que siempre esta en busca de aprender cosas nuevas.
+
+### Tomás López Turconi, 31 años.
+- Soy estudiante de Desarrollo web Node full stack y de Python, con ganas de mejorar tanto personal y profesionalmente.
+- Interesado e amante de la tecnología como en el hardware, software, robótica, IA, Deep L. y Machine L. Con muchas ganas de aprender.
+
+
+### Emanuel Gauna, 32 años.
+- Estudiante de programación full stack. me gusta la parte de programación y diseño, de paginas web. Atento a seguir las nuevas tecnologías y empezar algún proyecto a gran escala.
+- Soy contratista en construcción, rama: yesería y seria para mi un gran logro crear un sitio que una mis dos pasiones; construcción y programación. ¡A seguir codeando!…
+
+***
+
+## Link al documento o plataforma que utilicen para organizar el trabajo.
+
+[Tablero Trello](https://trello.com/b/GTtHK1Zq)
+
+***
+## Clone Proyect
+## npm install
 
 ## Available Scripts
 
@@ -13,58 +59,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
