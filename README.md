@@ -4,7 +4,6 @@
 
 - [APIS](https://github.com/emanuel-gauna/grupo-10-Progamer_APIS-REACT)
 
-<img alt="pro-gamer-logo" src="./design/proGamer_logo.png">
 
 ## ¿Quienes somos?
 
